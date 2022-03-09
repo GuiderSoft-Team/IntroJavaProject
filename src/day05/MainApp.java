@@ -9,7 +9,7 @@ public class MainApp {
         boolean b1=false&false; //False
         boolean b2=false&true;
         boolean b3=true&false;
-        boolean b4=true&true; //True
+        boolean b4=true&true; //Truee
 
 
         boolean b5=false|false;
