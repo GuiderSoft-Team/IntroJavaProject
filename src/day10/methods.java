@@ -58,13 +58,5 @@ public class methods {
         //void herhangibir değer döndürmeyen herhangibir sonucu olmayan
         //public static void ikiSayiyiTopla(int a,int b)
         //Herbir problemi bundan sonra oluşturacağımız bir methodla çözücez.
-
-
-
-
-
-
-
-
     }
 }
