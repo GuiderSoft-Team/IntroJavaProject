@@ -58,5 +58,10 @@ public class methods {
         //void herhangibir değer döndürmeyen herhangibir sonucu olmayan
         //public static void ikiSayiyiTopla(int a,int b)
         //Herbir problemi bundan sonra oluşturacağımız bir methodla çözücez.
+        //11.gün String de ilkel olmayan bir veri tipidir. İki ayrı parametre yerine değerler veriyoruz.
+        //----- ilk ikisi tam sayı sonra , . sonraki iki boşluk ise kesirli sayılar için
+        //%s Stringin s sidir
+        //int deger=1;  for(int i=1 i<=10 ;) sout (deger+"x"+i+"=+(deger*i));
+        //10 tane sout yazmamız gerekir ki bu zor kısmı
     }
 }
