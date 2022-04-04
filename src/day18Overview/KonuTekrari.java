@@ -604,7 +604,7 @@ import static java.lang.System.*;
 //görüldüğü üzere break; koyarsan int seçim=1 dediğinde sadece case1'i buluyor bulunca break yapıp kalıyor.
 
         //Klavyeden girdi alıp Switch kullanarak 4 işlem yapma
-
+/*
         Scanner input=new Scanner(System.in);
         System.out.println("DÖRT İŞLEM");
         System.out.println("-".repeat(15)); //15 tane -----koyar tek tek uğraşmaktan kurtulursun
@@ -656,9 +656,13 @@ import static java.lang.System.*;
                 break;
             default:
                 System.out.println("Yanlış Seçim Yaptınız!");
-                break;
-        }
+                break;*//// HESAP MAKİNESİ
 
+
+
+
+        }
+}
 
 
 
