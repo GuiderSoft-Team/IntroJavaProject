@@ -1,0 +1,20 @@
+
+Task:
+-Klavyeden 5 karakterlik bir mesaj girişi yapılacak.
+-Elde edilen mesajın karakterleri bir anahtar (7) ile
+ şifrelenecek.
+-Şifrelenen mesaj ekranda gösterilecektir.
+
+
+//        System.out.println(orijinalMesaj);
+        char oM0=orijinalMesaj.charAt(0);
+        char oM1=orijinalMesaj.charAt(1);
+        char oM2=orijinalMesaj.charAt(2);
+        char oM3=orijinalMesaj.charAt(3);
+        char oM4=orijinalMesaj.charAt(4);
+
+        System.out.print((char) (oM0^key));
+        System.out.print((char) (oM1^key));
+        System.out.print((char) (oM2^key));
+        System.out.print((char) (oM3^key));
+        System.out.print((char) (oM4^key));

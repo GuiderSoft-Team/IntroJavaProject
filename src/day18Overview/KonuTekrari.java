@@ -564,8 +564,8 @@ import static java.lang.System.*;
         //switch VE caseler var. Switchler (tren makası ingilizcede) tren geliyor yön değiştiriyor.
         //İf te conditionun içine girer şarta uymuyorsa diğer şarta girer.
         //Ama Switch'te break herzaman konulmalıdır. Yoksa ifteki gibi eşleşme durumuna bakmaz break yoksa bütün caseleri dolaşır en son karar verir.
-       //ifte her bir condition için ayrı blok açıyorduk ama switchte bir blok açılır caseler : ile sıralanır. en son blok kapanır.
-      //switchteki default hiçbir seçim ile eşleşmezse çalışır. Mesela 5 değeri versen  Hiçbiriyle Eşleşmedi sonucu çıkar.
+        //ifte her bir condition için ayrı blok açıyorduk ama switchte bir blok açılır caseler : ile sıralanır. en son blok kapanır.
+        //switchteki default hiçbir seçim ile eşleşmezse çalışır. Mesela 5 değeri versen  Hiçbiriyle Eşleşmedi sonucu çıkar.
 //        int secim=1;
 //        switch (secim) {
 //            case 1:
@@ -577,10 +577,10 @@ import static java.lang.System.*;
 //            default :
 //                System.out.println("Hiçbiriyle Eşleşmedi");
 //        }
- //       1
- //       2
- //       3
- //       Hiçbiriyle Eşleşmedi
+        //       1
+        //       2
+        //       3
+        //       Hiçbiriyle Eşleşmedi
         //sonucu çıktı yani break yazılmadığı için herbirini çalıştırır. Ama hepsine break yazarsan İf gibi
         //çalışır. Yaptığın seçimde durur.
 
@@ -600,7 +600,7 @@ import static java.lang.System.*;
 //                System.out.println("Hiçbiriyle Eşleşmedi");
 //                break;
 //        }
-       // 1 sonucu çıkar sadece.
+        // 1 sonucu çıkar sadece.
 //görüldüğü üzere break; koyarsan int seçim=1 dediğinde sadece case1'i buluyor bulunca break yapıp kalıyor.
 
         //Klavyeden girdi alıp Switch kullanarak 4 işlem yapma
@@ -657,12 +657,140 @@ import static java.lang.System.*;
             default:
                 System.out.println("Yanlış Seçim Yaptınız!");
                 break;*//// HESAP MAKİNESİ
+/*
+        //1-15 arası sayıların toplamı nedir?
+        int toplam=0;
+        for (int i = 1; i <=15; i++) {
+            toplam=toplam+i;
+        }
+        System.out.println(("Toplam= "+toplam));
+*///1-15 arası sayıların toplamı nedir?  for döngüsü
+      /* for (int i = 5; i <=140 ; i+=2) {
 
+            System.out.println("i ="+i);
+            for (int i = 5; i <=140 ; i+=2) {
 
-
+                System.out.println(i+",");
+        int toplam=0;
+        for (int i = 0; i < 5; i++) {
+            toplam+=i;
 
         }
+        System.out.println(toplam);
+        int carpim=1;
+        for (int i = 2; i <=10 ; i++) {//kısaca 10! =3628800
+            carpim*=i;
+
+        }
+        System.out.println("carpim= "+carpim);
+        int carpim=1;
+        for (int i = 1; i <4 ; i++) {
+            carpim*=i;
+
+        }
+        System.out.println("3! ="+carpim); //for döngüsü
+        //1 den 100 e kadar sayılar ama 100 hariç==even(çift) and odd(tek) number sayıların toplamını göster.
+
+      int sumOfOdd = 0;
+        int sumOfEven = 0;
+        for (int i = 1; i <6 ; i++) {
+            if (i % 2 == 0) {
+                sumOfEven += i;//2+4=6
+            } else {
+                sumOfOdd += i;//1+3+5=9
+            }
+        }
+           System.out.println(sumOfEven);
+           System.out.println(sumOfOdd);
+       System.out.println("Number\tNumber Squared");
+        System.out.println("--".repeat(15));
+        for (int i = 1; i <= 10; i++) {
+           System.out.println(i + "\t\t" + (i * i));
+
+
+            //MPH=KPH * 0,6214  MİLE PER HOUR =Kilometre Per Hour * 0,6214
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Kaç kez işlem yapılacak? ");
+        int count = input.nextInt();
+
+        for (int i = 0; i < count; i++) {
+            System.out.print("Birinci sayi Nedir?");
+            int n1 = input.nextInt();
+            System.out.print("İkinci Sayi Nedir?");
+            int n2 = input.nextInt();
+            if (n1 > n2) {
+                System.out.print("1. Sayi Büyüktür");
+            } else if (n2 > n1) {
+                System.out.print("2. Sayı Büyüktür");
+            } else {
+                System.out.print("İki Sayı BirBirine eşittir");
+            }
+            System.out.println();
+
+       Scanner input=new Scanner(System.in);
+
+        System.out.println("ÇARPIM TABLOSU");
+        System.out.println();
+        System.out.println("-".repeat(10));
+        System.out.println();
+        System.out.print("Bir sayı giriniz:");
+        int sayi= input.nextInt();
+
+
+        for (int i = 1; i <=10 ; i++) {
+            System.out.println(sayi+"x"+i+"="+sayi*i);
+            for (int i = 0; i < 5; i++) {
+            System.out.println("dıştaki yani 0'dan başlayıp 5'e kadar olan döngü");
+            System.out.println();
+            for (int j = 0; j < 4; j++) {
+                System.out.println("içteki yani 0'dan başlayıp 4'e kadar olan döngü");
+                System.out.println(i+"*"+j +"="+i*j);
+
+
+      for (int i = 0; i < 7; i++) {//sütun dikey
+            for (int j = 0; j <=i; j++) {//satır yatay yazar
+                System.out.print("* ");//* dan sonra bir boşluk güzel gözüksün diye
+
+            }
+            System.out.println(); //üstü bir satır yazdı çıktı bloktan sonra burada bir enter verip aşağıya indi
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j <i; j++) {
+                System.out.print(" ");
+            }
+            System.out.println("#");
+
+           for (int i = 1; i <=7; i++) {
+                for (int j = 1; j <=i; j++) {
+                    System.out.print(j+" ");
+
+                }
+                System.out.println();
+           //WHİLE DÖNGÜSÜ
+            int sayac=0;          //ÖNCE SAYACIMIZI YAZARIZ KAÇTAN BAŞLAYACAĞINI
+            while (sayac<5) {       //SAYAC 5 TEN KÜÇÜK OLDUĞU MÜDDETÇE DÖNDÜR.
+
+                System.out.println("Merhaba");
+                sayac++;
+            }
+            System.out.println("Döngüden çıkıldı"); //    WHİLE DÖNGÜSÜ
+
+            Scanner input=new Scanner(System.in);
+            while (input.hasNext("A-Z")){
+                System.out.println(input.next());*/
+       // odd numbers between 5-140 in same line
+
+
+    }
+
 }
+
+
+
+
+
+
+
 
 
 
@@ -755,6 +883,4 @@ import static java.lang.System.*;
 
 
 
-        }
 
-    }

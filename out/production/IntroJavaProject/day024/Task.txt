@@ -1,0 +1,5 @@
+
+Task 1:
+- Klavyeden kullanıcının yaşını isteyiniz.
+- Kullanıcının yaşı 13'ten küçük ise "Çocuktur", 13-17 arasında ise "Ergendir" 18 ve
+yukarısında ise "Yetişkindir" mesajı veren bir Java programını yazınız.
