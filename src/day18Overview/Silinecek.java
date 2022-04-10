@@ -57,15 +57,22 @@ public class Silinecek {
             }
             System.out.println("#");*/
 
-            for (int i = 1; i <=7; i++) {
+  /*          for (int i = 1; i <=7; i++) {
                 for (int j = 1; j <=i; j++) {
                     System.out.print(j+" ");
 
                 }
-                System.out.println();
+                System.out.println();*/
+
+                System.out.println("Number\tNumberSquare");
+                System.out.println("-".repeat(20));
+
+                for (int i = 1; i <=10; i++) {
+                    System.out.printf("%d\t\t%d\n",i,i*i);//%d desimal number araya boşluk sonra decimal tamsayıları , i,i*i
+                }
             }
         }
-    }
+
 
 
 
